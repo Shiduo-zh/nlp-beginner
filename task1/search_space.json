@@ -1,0 +1,6 @@
+{
+    "method": {"_type": "choice","_value": ["bag-of-words","N-gram"]},
+    "multi_class": { "_type": "choice", "_value": ["ovr","multinomial"] },
+    "solver": { "_type": "choice", "_value": ["newton-cg", "lbfgs", "liblinear", "sag", "saga"] },
+    "max_iter": { "_type": "choice", "_value": [50,100,200] }
+}
